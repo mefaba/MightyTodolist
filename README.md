@@ -8,4 +8,5 @@ Functional Components and Class Components
 Improve*
 Add Session Storage / Local Storage
 Create Web App
+Run on Netlify or Zeit
 
