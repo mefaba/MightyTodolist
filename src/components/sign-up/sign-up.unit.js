@@ -27,7 +27,7 @@ function SignUp (){
     }
     
     const handleSubmit = () => {
-        postData('http://localhost:3000/signup', { email: email, password: password, name: nickname })
+        postData('https://nameless-plateau-49737.herokuapp.com/signup', { email: email, password: password, name: nickname })
         .then((data) => {
         if(data==='success'){
             setStatus(true)

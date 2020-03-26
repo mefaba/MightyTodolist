@@ -9,7 +9,7 @@ const SignOut = () => {
     const todolist = useSelector(state => state.list.todolist)
     const sending_todolist = todolist.map(x => x.text)
 
-    const putData = async (url = 'http://localhost:3000/user_todolist', data = {}) => {
+    const putData = async (url = 'https://nameless-plateau-49737.herokuapp.com/user_todolist', data = {}) => {
         const response = await fetch(url, {
           method: 'PUT',
           body: JSON.stringify(data), 

@@ -27,7 +27,7 @@ function SignIn (){
         return await response.json(); // parses JSON response into native JavaScript objects
     }
     const handleSubmit = () => {
-        postData('http://localhost:3000/signin', { email: email, password: password})
+        postData('https://nameless-plateau-49737.herokuapp.com/signin', { email: email, password: password})
         /* .then((server_answer) => server_answer?console.log("Sign In Success"):null ); */
         /* .then((server_answer) => server_answer?dispatch(signInUser()):null );  */
         .then((server_answer) => {
@@ -37,12 +37,14 @@ function SignIn (){
                 /* SET EMAİL */
                 dispatch(setUserEmail(email))
                 /* GET USER TODOLİST DATA FROM DATABASE */
-                postData('http://localhost:3000/user_todolist',{ email: email}).then(db_todolist=> {
-                    console.log("in promise", db_todolist[0].todolist)
+                postData('https://nameless-plateau-49737.herokuapp.com/user_todolist',{ email: email}).then(db_todolist=> {
+                    /* console.log("in promise", db_todolist[0].todolist) */
                     const actual_db_todolist = db_todolist[0].todolist
-                    actual_db_todolist.forEach(x => {
-                        dispatch(addItem(x))
-                    });
+                    if(actual_db_todolist !== null){
+                        actual_db_todolist.forEach(x => {
+                            dispatch(addItem(x))
+                        });
+                    }
                         
                 })
             }
