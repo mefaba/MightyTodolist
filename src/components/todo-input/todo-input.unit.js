@@ -43,7 +43,7 @@ class TodoInput extends React.Component{
             <div className="todo-input">
                 <input
                     type="text"
-                    label="Enter Todo"
+                    aria-label="Enter Todo"
                     placeholder="Enter your desires" 
                     onChange = {this.handleChange}
                     value = {this.state.text}
