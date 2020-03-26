@@ -52,7 +52,7 @@ function SignIn (){
         // JSON data parsed by `response.json()` call
         /* ıf server answer true sign in user */
     }
-
+    console.log("here")
     return(
       
         <div className="sign-in">
@@ -60,7 +60,8 @@ function SignIn (){
             <input type="email" name="email" value={email} onChange={handleChange}></input>
 
             <label>Password</label>
-            <input type="password" name="password" value={password} onChange={handleChange}></input>
+            <input type="password" name="password" value={password} onChange={handleChange} 
+                   onKeyPress = {(event)=>(event.charCode === 13)?handleSubmit():null}></input>
 
             <button onClick={handleSubmit}>Sign In</button>
         </div>

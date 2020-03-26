@@ -48,8 +48,8 @@ function SignUp (){
             <input type="email" name="email" value={email} onChange={handleChange}></input>
 
             <label>Password</label>
-            <input type="password" name="password" value={password} onChange={handleChange}></input>
-
+            <input type="password" name="password" value={password} onChange={handleChange} 
+                   onKeyPress = {(event)=>(event.charCode === 13)?handleSubmit():null}></input>
 
             <button onClick={handleSubmit}>Sign Up</button>
         </div>
