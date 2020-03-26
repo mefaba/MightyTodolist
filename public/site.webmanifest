@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "MightyTodo",
+    "short_name": "MightyTodo",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
