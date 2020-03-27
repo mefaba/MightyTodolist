@@ -24,5 +24,5 @@ Add Session Storage / Local Storage
 
 Fix responsive design issues
 
-Determine valid & invalid email password. Configure backand and frontend according to.
+Determine valid & invalid email password. Configure backend and frontend according to.
 
