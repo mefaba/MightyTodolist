@@ -1,18 +1,24 @@
-This todolist using redux state.
+### Description
 
-Redux Actions created with Redux Toolkit.
-
-Redux Reducers are Vanilla Redux 
-
-Ract-Router
-
-React Hooks&
-
-Functional Components and Class Components
+This website is kind of a learning playground. Therefore it involves different aproaches on same issues. For example using both redux state and react state.
 
 
-Improve*
+### Coding Features
+
+☑️ React, React Hooks, Class Components, Functional Components, React Router
+
+☑️ Redux, Redux Toolkit
+
+☑️ Backend, Postgre Database, Express.js, Knex.js
+
+☑️ Progressive Web App(PWA)
+
+
+### Improve*
+
 Add Session Storage / Local Storage
-Create Web App
+
+Fix responsive desing issues
+
 Determine valid & invalid email password. Configure backand and frontend according to.
 
