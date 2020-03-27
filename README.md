@@ -11,6 +11,8 @@ This website is kind of a learning playground. Therefore it involves different a
 
 ☑️ Backend, Postgre Database, Express.js, Knex.js
 
+☑️Sign in and Sign out, save user's todolist to database.
+
 ☑️ Progressive Web App(PWA)
 
 
