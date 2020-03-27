@@ -22,7 +22,7 @@ This website is kind of a learning playground. Therefore it involves different a
 
 Add Session Storage / Local Storage
 
-Fix responsive desing issues
+Fix responsive design issues
 
 Determine valid & invalid email password. Configure backand and frontend according to.
 
