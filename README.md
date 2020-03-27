@@ -15,6 +15,8 @@ This website is kind of a learning playground. Therefore it involves different a
 
 ☑️ Progressive Web App(PWA)
 
+☑️ Deployed to Netlify
+
 
 ### Improve*
 
