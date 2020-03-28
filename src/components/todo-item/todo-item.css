@@ -1,6 +1,5 @@
 .todo-item {
     display: flex;
-    width: 400px;
     word-wrap: break-word;
     box-sizing: border-box;
     justify-content: space-between;;
@@ -14,6 +13,10 @@
     6px 6px 10px rgba(0, 0, 0, 0.2);
     color: #6f6cde;
     
+  }
+
+.todo-item p {
+      margin: 5px 0;
   }
   
 .todo-item button {

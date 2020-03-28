@@ -1,4 +1,14 @@
+
+
 .todo-list {
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+
+@media (max-width: 500px){
+    .todo-list {
+        width: 95%;
+    }
 }
