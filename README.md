@@ -15,6 +15,8 @@ This website is kind of a learning playground. Therefore it involves different a
 
 ☑️ Progressive Web App(PWA)
 
+☑️ Material UI
+
 ☑️ Deployed to Netlify
 
 
@@ -25,4 +27,5 @@ Add Session Storage / Local Storage
 Fix responsive design issues
 
 Determine valid & invalid email password. Configure backend and frontend according to.
+
 
