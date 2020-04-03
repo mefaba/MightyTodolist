@@ -71,7 +71,7 @@ function SignUp (){
 
     return status?(<div className="signup-message">Sign up is succesfull.<br></br> Welcome, now you can sign in</div>)
      :  (
-<Container component="div" maxWidth="xs">
+            <Container component="div" maxWidth="xs">
             
             <div className={classes.paper}>
                 <Avatar className={classes.avatar}>
