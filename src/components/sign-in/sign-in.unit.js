@@ -110,6 +110,7 @@ function SignIn() {
                 <TextField
                     onChange={handleChange}
                     error = {password.length>5?false:true}
+                    onKeyPress={(event) => (event.charCode === 13) ? handleSubmit() : null}
                     helperText="Password must be of minimum 6 characters"
                     variant="outlined"
                     margin="normal"
@@ -132,7 +133,7 @@ function SignIn() {
                 >
                     Sign In
                 </Button>
-
+         
             </div>
         </Container >
 
