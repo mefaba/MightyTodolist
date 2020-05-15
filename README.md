@@ -2,6 +2,9 @@
 
 This website is kind of a learning playground. Therefore it involves different aproaches on same issues. For example using both redux state and react state.
 
+### Upcoming Features
+
+☑️ Drag/Drop 
 
 ### Coding Features
 
