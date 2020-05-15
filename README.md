@@ -4,11 +4,13 @@ This website is kind of a learning playground. Therefore it involves different a
 
 ### Upcoming Features
 
-☑️ Drag/Drop 
+...
 
 ### Coding Features
 
 ☑️ React, React Hooks, Class Components, Functional Components, React Router
+
+☑️ Drag/Drop List with Framer Motion Library
 
 ☑️ Redux, Redux Toolkit
 

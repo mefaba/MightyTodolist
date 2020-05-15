@@ -1,6 +1,5 @@
 .todo-item {
     display: flex;
-    width:600px;
     word-wrap: break-word;
     box-sizing: border-box;
     justify-content: space-between;;
@@ -39,3 +38,4 @@
 .todo-item button:hover{
     background-color:#DA4A66;
 }
+

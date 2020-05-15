@@ -24,7 +24,7 @@ export const findIndex = (i, yOffset, positions) => {
 	return clamp(0, positions.length, target);
 };
 
-export function clamp(value, min, max) {
+export function clamp(min, max, value) {
 	if (value < min) {
 		return min;
 	}
@@ -37,3 +37,14 @@ export function clamp(value, min, max) {
 export function distance(a, b) {
 	return Math.abs(a - b);
 }
+
+
+
+export const arrayMove = (array, from, to) => {
+	array = array.slice();
+    const startIndex = to < 0 ? array.length + to : to;
+	const item = array.splice(from, 1)[0];
+	array.splice(startIndex, 0, item);
+	return array;
+};
+

@@ -31,3 +31,15 @@ const TodoList = () => {
     )
 };
 export default TodoList;
+
+/* export default connect(mapStateToProps,null)(TodoList); */
+
+/* const mapStateToProps = state => {
+    return {
+        todolist: state.list.todolist,
+        isSignedIn: state.user.isSignedIn,
+        userEmail: state.user.userEmail
+    }
+  } */
+
+//STABLE
